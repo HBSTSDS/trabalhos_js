@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2? família= Inter & display=trocar');
+body{
+  
+  font-family: 'Inter', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+  }
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+  }
+
+.menu-column {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+  }
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    flex: auto; 
+    padding-left: 700px;
+  }
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+.menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center ;
+    border-radius: 4px;
+  }
+.menu-link-button2 {
+    text-decoration: none;
+    height: 48px;
+    background-color: #0A99FE;
+    color: #4c6ef5;
+    padding: 0 32px;
+    display: flex;
+    align-items: center ;
+    border-radius: 4px;
+  }
+.pa{
+    padding-left: 200px;
+}
+
+.ul {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.ul2 {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.ul li{
+    display: flex;
+    padding: 22px;
+    max-width: 50%;
+    width: 250px;
+    margin: 10px auto 0 auto;
+    flex-wrap: wrap;
+    border: 2px none #e2e2ec;
+    box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.09);
+    border-radius: 8%;
+    flex-direction: column;
+    
+}
+.ul2 li{
+    display: flex;
+    padding: 22px;
+    max-width: 50%;
+    width: 250px;
+    margin: 10px auto 0 auto;
+    flex-wrap: wrap;
+    border: 2px none #e2e2ec;
+    box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.09);
+    border-radius: 8%;
+    flex-direction: column;
+    
+}
+.box li > img{
+    margin: 0 auto;
+    padding: 10px;
+    max-width:200px;
+    max-height:150px;
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+.text{
+    text-align: left;
+    
+  }
+.box{
+    width: 100%;
+}
